@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    background-color: rgb(87, 87, 253);
+    width: 733px;
+    color: lightblue;
+    padding-left: 5px;;
+}
+
+span{
+    color: white;
+}
+
+.side_border{
+    border-left: 5px solid rgb(87, 87, 253);
+}
+button{
+    border: none;
+    background-color: transparent;
+    color: rgb(87, 87, 253);
+    font-weight: 600;
+    padding: 10px;
+}
+
+table,th,td{
+    color: rgb(87, 87, 253);
+    border: 1px solid rgb(216, 213, 213);
+    border-collapse: collapse;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+.for_text{
+    color: black;
+    border: 2px solid rgb(122, 122, 255);
+}
+
+td button{
+    background-color: lightsalmon;
+    color: white;
+    border-radius: 5px;
+}
+
+button:disabled,
+button[disabled]{
+    background-color: rgb(255, 211, 194);
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination {
+    display: inline-block;
+    background-color: rgb(245, 245, 245);
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  
+  }
+  
+.pagination_border{
+    border: 1px solid rgb(216, 213, 213);
+}
+  .pagination i{
+    color: rgb(87, 87, 253);
+  }
+
+.pagination_text{
+    float: right;
+    margin-left: 256px;
+    color: gray;
+    margin-top: 15px;
+}
